@@ -62,10 +62,10 @@ except NameError:
     print("Exiting the program...")
     sys.exit(0)
 
-if len(sys.argv) < 3:
+if len(sys.argv) > 3:
     endpoint = sys.argv[3]
     if re.search('api\.((app|eu2|cx\d{3})\.)?coralogix(sg)?\.(com|in|us)', endpoint):
-        print('API key matches the pattern.')
+        print('Endpoint matches the pattern.')
     else:
         print('Incorect endpoint: '+ str(endpoint))
         print("Exiting the program...")
