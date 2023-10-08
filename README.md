@@ -38,8 +38,7 @@ Status code: 201
 Because of differences between Logz.io and Coralogix after running the code there is a need to review alerts as they may need conditions changes. When you run the tool you get an information for each alert if an alert was created successfully or not, and also a hint that you should check conditions carefully as they were modified.
 
 ## Limitations
-* the tool supports the aggregationType COUNT only (planning to add UNIQUE_COUNT)
-* the tool 
+* the tool supports the aggregationType COUNT only (planning to add UNIQUE_COUNT) (For other types it will show error about unsupported type)
 
 
 ## Delete created alerts
