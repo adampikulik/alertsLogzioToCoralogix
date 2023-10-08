@@ -1,7 +1,7 @@
 ################################################################################################
 # Tool to migrate Logz.io alerts to Coralogix Alerts
 # Source: Logz.io alerts exported to json
-# Target: The tool will create Terraform file to be used with Coralogix Terraform Provider
+# Target: The tool will creates API calls to Coralogix and creates alerts
 ################################################################################################
 #from contextlib import nullcontext
 
